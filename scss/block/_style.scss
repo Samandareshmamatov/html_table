@@ -1,0 +1,16 @@
+.box {
+    height: 75vh;
+    margin-top: 150px;
+    &__table {
+        border-collapse: collapse;
+        border: 2px solid #111;
+        width: 100%;
+        text-align: center;
+    }
+    &__table-head-th,
+    &__table-body-td,
+    &__table-head-td {
+        padding: 15px;
+        border: 2px solid #111;
+    }
+}
